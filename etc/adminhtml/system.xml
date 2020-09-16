@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="review" translate="label" type="text" sortOrder="2000" showInDefault="1" showInWebsite="1" showInStore="1">
+            <resource>Alvor_ReviewValidation::config</resource>
+            <label>Review Validation</label>
+            <tab>catalog</tab>
+                <group id="general" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1" translate="label">
+                    <label>General Settings</label>
+                    <field id="forbidden_words" translate="label,hint" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Forbidden words</label>
+                    </field>
+                </group>
+        </section>
+    </system>
+</config>
